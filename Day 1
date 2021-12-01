@@ -12,6 +12,6 @@ def first(d=int_input_data):
 
 #consider sum of a three-measurement sliding window (i-2, i-1, i-2)- use first()
 def second(d=int_input_data):
-    return first([d[i-2] + d[i - 1] + d[i] for i in range(len(d)) if i >= 2]) #sum(d[i-n] for n in range(0,2))??
+    return first([d[i-2] + d[i - 1] + d[i] for i in range(len(d)) if i >= 2]) #sum(d[i-2:i])
 
 print(f"Solution of the 1st part: {first()}\nSolution of the 2nd part: {second()}")
