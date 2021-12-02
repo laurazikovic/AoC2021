@@ -1,6 +1,6 @@
 """
 @author: laura.zikovic
-AoC 2021,Day 1 - Sonar Sweep
+AoC 2021,Day 1 - Sonar Sweep - optimizirano
 """
 input_data = open("Inputday1.txt").read().split("\n")
 #print(type(input_data[1]))
