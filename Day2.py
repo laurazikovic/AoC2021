@@ -1,6 +1,6 @@
 """
 @author: laura.zikovic
-AoC 2021,Day 2 - Dive!
+AoC 2021,Day 2 - Dive! - trebam popraviti
 """
 #Razdvojiti smjerove od vrijednosti i za svaki string u jednoj listi sa zadanim uvjetom na istom mjestu u drugoj listi određujem operaciju
 from functools import reduce
