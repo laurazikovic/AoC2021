@@ -8,7 +8,7 @@ int_input_data = [int(i) for i in input_data]
 
 #koji je broj onih koji su > od previous
 def first(d=int_input_data):
-    return sum(1 if d[i-1] < d[i] else 0 for i in range(0, len(d)))
+    return sum(1 if d[i-1] < d[i] else 0 for i in range(len(d)))
 
 #consider sum of a three-measurement sliding window (i-2, i-1, i-2)- use first()
 def second(d=int_input_data):
