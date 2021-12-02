@@ -45,15 +45,3 @@ for (a, b) in zip(directions[0::1], int_values[0::1]):
         depth += b*aim
 
 print(f"Solution of the 2nd part: {hor*depth}")
-
-
-
-
-
-
-
-
-
-
-
-
