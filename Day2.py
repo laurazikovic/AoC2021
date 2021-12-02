@@ -18,7 +18,7 @@ with open("Inputday2.txt","r") as input_data:
 with open("Inputday2.txt","r") as input_data:
     for el2 in input_data:
         value = el2.split()[1::2]
-        values.append(list(map(int, value)))        #int!!???
+        values.append(list(map(int, value)))        #optimizirati ovo! int!!???
 int_values = reduce(lambda x,y: x+y, values)
 
 #1st part: Postavljam se u horizontalnu ravninu x i y(d), gdje u +smjeru idem prema dolje (depth+)
