@@ -22,7 +22,7 @@ with open("Inputday2.txt","r") as input_data:
 int_values = reduce(lambda x,y: x+y, values)
 
 #1st part: Postavljam se u horizontalnu ravninu x i y(d), gdje u +smjeru idem prema dolje (depth+)
-for (a, b) in zip(directions[0::1], int_values[0::1]):  #prvi put sam koristila zip :D
+for (a, b) in zip(directions[0::1], int_values[0::1]):
     if a == ["down"]:
         depth += b
     elif a == ["up"]:
